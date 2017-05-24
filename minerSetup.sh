@@ -2,7 +2,7 @@
 if [ "$EUID" -ne 0 ]
 	then echo "Please run as root"
 else
-apt update -y
+apt-get update -y
 apt-get install autoconf libcurl4-openssl-dev ibjansson-dev openssl libssl-dev gcc gawk automake git screen -y
 git clone https://github.com/lucasjones/cpuminer-multi.git
 cd cpuminer-multi
